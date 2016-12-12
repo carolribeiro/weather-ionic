@@ -1,0 +1,7 @@
+{
+    "name": "weather",
+    "description": "Weather: An Ionic project",
+    "repository": "https://github.com/carolribeiro/weather-ionic",
+    "logo": "http://pathToYourLogo.png",
+    "keywords": ["ionic", "weather", "whatever"]
+}

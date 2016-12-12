@@ -1,0 +1,19 @@
+{
+  "name": "Weather",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api/forecast",
+      "proxyUrl": "https://api.forecast.io/forecast/ab02e456fb1b4e33e9c2664d862eea31/"
+    }
+  ],
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
