@@ -11,11 +11,7 @@ angular.module('starter')
 
 .factory('Locations', function ($ionicPopup) {
   var Locations = {
-    data: [{
-      city: 'Chicago, IL, USA',
-      lat: 41.8781136,
-      lng: -87.6297982
-    }],
+    data: [],
     getIndex: function (item) {
       var index = -1;
       angular.forEach(Locations.data, function (location, i) {

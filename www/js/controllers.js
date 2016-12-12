@@ -2,6 +2,12 @@ angular.module('starter')
 
 .controller('LeftMenuController', function ($scope, Locations) {
   $scope.locations = Locations.data;
+  $scope.getIcon = function (current) {
+    if (current) {
+      return 'ion-ios-navigate';
+    }
+    return 'ion-ios-location';
+  };
 })
 
 .controller('SearchController', function ($scope, $http) {
